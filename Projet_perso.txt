@@ -1,0 +1,26 @@
+Contexte: 
+
+	Deux Entrepots (A, B) ont une demande de livraison de marcahndises au Magasins (A, B)
+	et livrent leur marchandise grâce à des essaims de drones (A, B).
+
+------------------------------\    /-----------------------------
+E_A : Swarm_A 		       \  /   			Magasin_B
+----------------------------\	\/   /---------------------------
+			     \   \  /
+			      \	  \/
+			      /\  /\
+			     /	\/  \
+----------------------------/	/\   \----------------------------
+E_B : Swarm_B		       /  \			 Magasin_A
+------------------------------/    \------------------------------
+
+Goal:
+
+	- Objectif 1: L'essaim A apporte la marchandise à l'entrepôt A pendant que l'essaim B
+			livre le magasin B. Essaim B passe au dessus de l'essaim A (pas de communication).
+
+	- Objectif 2: Un essaim est pilotable par un Joueur afin de remplir la même mission.
+
+	- Objectif 3: Même principe mais les essaims se mettent d'accord sur la priorité de la hauteur.
+
+	- Objectif 4: Même principe mais le deuxième essaim s'arrête pour laisser passer le premier essaim.
